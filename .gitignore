@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -127,3 +128,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+=======
+.vscode/
+venv/
+
+__pycache__
+>>>>>>> eda5a9a (Initialize project)

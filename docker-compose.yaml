@@ -1,0 +1,22 @@
+version: '3.2'
+
+services:
+  rabbitmq:
+    image: 'rabbitmq:3-management'
+    container_name: 'queue'
+    ports:
+      - 5672:5672
+      - 15672:15672
+    networks:
+      - rabbitmq_network
+    environment:
+      - RABBITMQ_DEFAULT_USER=user
+      - RABBITMQ_DEFAULT_PASS=password
+  # myapp:
+  #   image: 'YOUR_APPLICATION_IMAGE'
+  #   networks:
+  #     - app-tier
+
+networks:
+  rabbitmq_network:
+    driver: bridge
