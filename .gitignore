@@ -1,4 +1,37 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+.vscode
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@isamsing 
+isamsing
+/
+rabbitmq-celery
+Public
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+rabbitmq-celery/.gitignore
+@isamsing
+isamsing Initial commit
+Latest commit bfd4d75 now
+ History
+ 1 contributor
+129 lines (105 sloc)  1.76 KB
+   
+>>>>>>> f40b978 (Setup gitignore for python project)
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -106,6 +139,7 @@ celerybeat.pid
 .env
 .venv
 env/
+<<<<<<< HEAD
 venv/
 ENV/
 env.bak/
@@ -130,7 +164,45 @@ dmypy.json
 .pyre/
 =======
 .vscode/
+=======
+>>>>>>> f40b978 (Setup gitignore for python project)
 venv/
+ENV/
+env.bak/
+venv.bak/
 
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+<<<<<<< HEAD
 __pycache__
 >>>>>>> eda5a9a (Initialize project)
+=======
+# Pyre type checker
+.pyre/
+© 2022 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Loading complete
+>>>>>>> f40b978 (Setup gitignore for python project)
