@@ -41,7 +41,3 @@ services:
     depends_on:
       - rabbitmq
   
-
-# networks:
-#   rabbitmq_network:
-#     driver: bridge
