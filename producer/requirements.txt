@@ -1,1 +1,1 @@
-pika
+celery==5.2.3
