@@ -5,9 +5,9 @@ from tasks.print import Print
 
 
 celery = Celery(
-    'test',
-    broker='pyamqp://user:password@localhost:5672/',
-    include=["tasks.add"])
+    'consumer',
+    broker='pyamqp://user:password@rabbitmq:5672',
+    include=["tasks.add", "tasks.print"])
 
 celery.register_task(Add())
 celery.register_task(Print())
